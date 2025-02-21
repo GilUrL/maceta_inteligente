@@ -5,7 +5,7 @@ $(document).ready(function () {
 
 function obtenerDatosReales(callback) {
     $.ajax({
-        url: "https://api.maseta.codehost.xyz/dht11/controller/dhtController.php",
+        url: "http://localhost/maceta/api/",
         method: "POST",
         contentType: "application/json",
         data: JSON.stringify({ peticion: "ObtenerLecturasDHT" }),

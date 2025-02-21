@@ -1,5 +1,5 @@
 <?php
-require_once '../../library/conexion.php';
+require_once './config/conexion.php';
 
 class dhtModel extends DatabaseDB {
     private $humedad_ambiente;
@@ -81,5 +81,6 @@ class dhtModel extends DatabaseDB {
             return ["estado" => false, "msg" => "Error en la base de datos"];
         }
     }
+
 }
 ?>
