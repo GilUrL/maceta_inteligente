@@ -21,7 +21,10 @@ La maceta inteligente es un sistema automatizado diseñado para monitorear y man
 ## Funcionamiento
 La maceta utiliza el microcontrolador inalámbrico HC-12 para enviar los datos al ESP32, que estará conectado a WiFi. Esto permite mantener la maceta en zonas donde el WiFi no esté disponible. Gracias a la integración de nuestra API, los datos pueden ser visualizados y gestionados de forma remota.
 
-![Panel de control](img/maseta_interfaz.png)
+[Ver avance](https://maceta.codehost.xyz/view/index.html)
+
+
+![Panel de control](img/panel.png)
 
 
 
